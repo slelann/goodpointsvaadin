@@ -1,1 +1,1 @@
-web: java -jar build/libs/goodpoints-0.0.1-SNAPSHOT.jar
+web: java -Dserver.port=$PORT -jar build/libs/goodpoints-0.0.1-SNAPSHOT.jar
